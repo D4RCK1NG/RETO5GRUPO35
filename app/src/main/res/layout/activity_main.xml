@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".controlador.MainActivity">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/product"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:backgroundTint="#5A5A5A"
+        android:drawablePadding="6dp"
+        android:text="Productos"
+        android:textColor="#FCFFFC"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/servicio"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:backgroundTint="@color/gris"
+        android:drawablePadding="6dp"
+        android:text="Servicios"
+        android:textColor="#FCFFFC"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/sucursal"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:backgroundTint="@color/gris"
+        android:drawablePadding="6dp"
+        android:text="Sucursales"
+        android:textColor="#FCFFFC"
+        android:textSize="15sp" />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/contenedor"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#F8F5F5">
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
